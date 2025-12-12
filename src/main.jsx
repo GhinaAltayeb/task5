@@ -15,7 +15,7 @@ document.documentElement.dir = RTL_LANGUAGES.includes(savedLang)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Task5">
+    <BrowserRouter basename="/task5">
         <App/>
     </BrowserRouter>
   </StrictMode>,
